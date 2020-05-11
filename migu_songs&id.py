@@ -9,7 +9,7 @@ import csv
 
 # 获取歌手id和歌手姓名
 def read_csv():
-    with open("migu_artist&ids.csv", "r", encoding="utf-8") as csvfile:
+    with open("migu_artists&id.csv", "r", encoding="utf-8") as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             artist_id, artist_name = row
