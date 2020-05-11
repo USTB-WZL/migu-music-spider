@@ -5,7 +5,7 @@ import time
 import csv
 
 
-# 将获得的歌手的热门歌曲id和名字写入csv文件
+# 将歌曲详细信息写入csv文件
 def write_to_csv(artist_id):
     with open("migu_songs_info.csv", "a", encoding='utf-8', newline="") as csvfile:
         writer = csv.writer(csvfile)
