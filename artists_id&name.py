@@ -34,7 +34,7 @@ tagId = [1, 2, 3]    # 对应华语、欧美、日韩
 type = ['A', 'B', 'C']    #对应男、女、组合 
 firstLetter = ['A','B','C','D','E','F','G','H','I','G','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 page = [1, 2, 3]
-csvfile = open('migu_artists.csv', 'a', encoding='utf-8', newline="")    # 文件存储的位置，选择你想要保存文件的位置
+csvfile = open('migu_artists&id.csv', 'a', encoding='utf-8', newline="")    # 文件存储的位置，选择你想要保存文件的位置
 writer = csv.writer(csvfile)
 for i in tagId:
     for j in type:
